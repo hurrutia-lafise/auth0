@@ -105,6 +105,22 @@ android {
     }
 }
 
+repositories {
+    google()
+    mavenCentral()
+	exclusiveContent {
+		forRepository {
+			maven {
+				url 'https://repo.mobile.jumio.ai'
+			}
+		}
+		filter {
+			includeGroup "com.jumio.android"
+			includeGroup "com.iproov.sdk"
+		}
+	}
+}
+
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")

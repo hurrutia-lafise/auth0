@@ -205,7 +205,7 @@ const Home = () => {
   );
 };
 
-const App = () => {
+const auth0 = () => {
   return (
     <Auth0Provider domain={config.domain} clientId={config.clientId}>
       <Home />
@@ -233,4 +233,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default auth0;

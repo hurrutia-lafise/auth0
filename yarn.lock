@@ -13118,6 +13118,10 @@ react-native-fs@^2.20.0:
     base-64 "^0.1.0"
     utf8 "^3.0.0"
 
+"react-native-jumio-mobilesdk@github:Jumio/mobile-react#v4.10.0":
+  version "4.10.0"
+  resolved "git+ssh://git@github.com/Jumio/mobile-react.git#6f5bdfed69ae85a8e91c2f4a9d70dae7447edf0c"
+
 react-native-swipeout@^2.2.2:
   version "2.3.6"
   resolved "https://registry.npmjs.org/react-native-swipeout/-/react-native-swipeout-2.3.6.tgz"
@@ -13127,7 +13131,7 @@ react-native-swipeout@^2.2.2:
     prop-types "^15.5.10"
     react-tween-state "^0.1.5"
 
-react-native@*, "react-native@>=0.65.0 <1.0.x", react-native@0.74.4:
+react-native@*, react-native@>=0.47.1, "react-native@>=0.65.0 <1.0.x", react-native@0.74.4:
   version "0.74.4"
   dependencies:
     "@jest/create-cache-key-function" "^29.6.3"
